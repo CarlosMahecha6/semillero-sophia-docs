@@ -23,7 +23,7 @@ language = 'es'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-html_baseurl = "https://carlosmahecha6.github.io/semillero-sophia-docs/"
+html_baseurl = ""
 html_favicon = "_static/logoSophia.png"
 html_title = "Documentación"
 html_theme = "sphinx_rtd_theme"
@@ -37,3 +37,6 @@ html_static_path = ['_static']
 html_css_files = [
     'custom.css',
 ]
+
+html_js_files = []          # evita conflictos de rutas JS
+html_extra_path = []        # evita rutas raras
