@@ -1,0 +1,131 @@
+img.logo {
+    max-height: 108px; /* ajusta el tamaño */
+    margin-right: 1%; /* separa del título */
+}
+
+/* HEADER SUPERIOR*/
+.wy-nav-top {
+    width: 100% !important;
+    background-color: #2c3e50 !important; /* color de fondo */
+    padding: 20px !important;
+    text-align: center;
+    font-size: 24px !important; /* título más grande */
+    color: #ffffff !important;
+}
+
+/* FONDO GENERAL */
+body.wy-body-for-nav,
+.wy-grid-for-nav {
+    background-color: #f0f2f5 !important;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 700 !important;
+    color: #1e3a8a !important; /* azul elegante */
+}
+
+/* CONTENEDOR PRINCIPAL */
+.wy-nav-content-wrap {
+    display: flex;
+    justify-content: center; /* centra la tarjeta en la página */
+}
+
+/* TARJETA DE CONTENIDO */
+.wy-nav-content {
+    max-width: 1100px !important;   /* ancho máximo de la tarjeta */
+    width: 100%;
+    background-color: #ffffff !important;
+    padding: 30px !important;
+    margin: 20px !important;        /* separación arriba, izquierda y derecha */
+    border-radius: 10px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important; 
+}
+
+/* TÍTULO PRINCIPAL */
+.wy-nav-content h1 {
+    font-size: 40px !important;
+    text-align: center;
+    padding: 60px 20px;
+    color: #ffffff !important;
+    background: linear-gradient(90deg, #2563eb, #9333ea); /* azul → morado */
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* BARRA LATERAL AZUL MODERNA */
+.wy-nav-side {
+    background: linear-gradient(180deg, #1e3a8a, #2563eb); /* azul oscuro → azul brillante */
+    color: #ffffff !important;
+    padding-top: 20px;
+}
+
+/* Título del proyecto en el menú */
+.wy-side-nav-search {
+    background: transparent !important;
+    color: #ffffff !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    text-align: center;
+}
+
+/* Enlaces del menú */
+.wy-nav-side a {
+    color: #e0e7ff !important; /* azul claro */
+    font-weight: 500;
+    padding: 8px 0 8px 12px;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+/* Hover con efecto */
+.wy-nav-side a:hover {
+    background-color: rgba(255,255,255,0.2) !important;
+    color: #ffffff !important;
+    transform: none;
+    border-left: 4px solid #ffffff;
+}
+
+/* Elemento seleccionado */
+.wy-menu-vertical li.current > a {
+    background-color: #3b82f6 !important; /* azul brillante */
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+/* Sub-elementos seleccionados */
+.wy-menu-vertical li.current li.current > a {
+    background-color: #1d4ed8 !important; /* azul más oscuro */
+    color: #ffffff !important;
+}
+
+/* SEPARADORES Y SECCIONES */
+.wy-menu-vertical .caption {
+    color: #93c5fd !important; /* azul claro para títulos */
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+/* FONDO DE SUBITEM DESPLEGADOS */
+.wy-menu-vertical li.current ul li a {
+    background-color: #3b82f6 !important; /* azul claro */
+    color: #ffffff !important;
+}
+/* Hover en subitems desplegados */
+.wy-menu-vertical li.current ul li a:hover {
+    background-color: #2563eb !important; /* azul más vivo */
+    color: #ffffff !important;
+}
+/* Subitem activo */
+.wy-menu-vertical li.current ul li.current > a {
+    background-color: #1d4ed8 !important; /* azul oscuro */
+    color: #ffffff !important;
+    font-weight: bold;
+}
