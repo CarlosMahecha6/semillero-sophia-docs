@@ -23,6 +23,7 @@ language = 'es'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+html_baseurl = "https://carlosmahecha6.github.io/semillero-sophia-docs/"
 html_favicon = "_static/logoSophia.png"
 html_title = "Documentación"
 html_theme = "sphinx_rtd_theme"
