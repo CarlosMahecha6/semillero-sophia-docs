@@ -18,7 +18,7 @@ language = 'es'
 
 html_theme = "sphinx_rtd_theme"
 
-# 🔥 CLAVE: esto arregla GitHub Pages
+
 html_baseurl = '/semillero-sophia-docs/'
 
 html_title = "Documentación"
@@ -38,8 +38,7 @@ html_css_files = [
     'custom.css',
 ]
 
-# ⚠️ IMPORTANTE: NO vaciar esto
-# (Sphinx necesita sus JS por defecto)
+
 # html_js_files = []
 # html_extra_path = []
 
